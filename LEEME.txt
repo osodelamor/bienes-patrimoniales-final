@@ -1,0 +1,9 @@
+BIENES PATRIMONIALES - WEB
+Abrir index.html. Subir TODA la carpeta al alojamiento (HTTPS), respetando mayúsculas, tildes y espacios de los nombres.
+Imágenes (reemplazar con el MISMO nombre y extensión .jpg):
+ imagen/hero.jpg · imagen/alianzas.jpg · servicio-portada/<slug>.jpg (800x1000)
+ galeria-servicio/<slug>/1.jpg ... 6.jpg (1200x800; las que falten no se muestran)
+Mapa: MAPA_URL al inicio del script. Número de WhatsApp: WA. Redes y enlaces: objeto U (fb, ig, pd, pm, ga, rep).
+Opacidad de la capa salmón del hero: --ov (mínimo .70). Century Gothic no se incluye (licencia): se usa Poppins si falta.
+
+Parallax sutil (hero y alianzas): constante K al final del script (0.15; menor = más sutil). Se desactiva con prefers-reduced-motion.

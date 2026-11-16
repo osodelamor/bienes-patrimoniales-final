@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bienes Patrimoniales · Oficina del Historiador de la Ciudad de La Habana</title>
+<meta name="description" content="Museos, instituciones y servicios de patrimonio cultural de La Habana."><meta name="theme-color" content="#080808">
+<link rel="preload" as="image" href="imagen/hero.jpg">
+<style>
+:root{--bg:#fff;--s1:#f6f1ec;--s2:#fff;--tx:#011e44;--t2:#44546a;--be:#cdae97;--bh:#7a5a44;--sa:#ff9a85;--ac:#011e44;--ln:#d9cfc6;--fr:#011e44;--ov:.78;--hh:84px;--hf:"Century Gothic","Poppins",sans-serif;--bf:"Open Sans",system-ui,sans-serif;color-scheme:light}
+@font-face{font-family:"Open Sans";font-weight:400;font-display:swap;src:url(fuentes/opensans-400.woff2)}
+@font-face{font-family:"Open Sans";font-weight:600;font-display:swap;src:url(fuentes/opensans-600.woff2)}
+@font-face{font-family:"Open Sans";font-weight:700;font-display:swap;src:url(fuentes/opensans-700.woff2)}
+@font-face{font-family:Poppins;font-weight:600;font-display:swap;src:url(fuentes/poppins-600.woff2)}
+@font-face{font-family:Poppins;font-weight:700;font-display:swap;src:url(fuentes/poppins-700.woff2)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:var(--hh)}
+body{margin:0;background:var(--bg);color:var(--tx);font:400 1.05rem/1.65 var(--bf)}
+body:has(dialog[open]){overflow:hidden}
+h1,h2,h3,h4{font-family:var(--hf);line-height:1.15;margin:0 0 .6em}
+h2{font-size:clamp(1.7rem,3.6vw,2.6rem);font-weight:700}
+p{margin:0 0 1em;max-width:62ch}a{color:inherit}
+:focus-visible{outline:2px solid var(--fr);outline-offset:3px}
+.w{max-width:1100px;margin:0 auto;padding:0 20px}section{padding:84px 0}
+.p{border-bottom:1px dashed currentColor}[hidden]{display:none!important}
+.sk{position:fixed;left:8px;top:-60px;z-index:300;background:var(--tx);color:#fff;padding:10px 14px}.sk:focus{top:8px}
+header{--bg:#080808;--tx:#f3f3f4;--t2:#bdb6ae;--be:#d3ad93;--s1:#121110;--s2:#1b1917;--ln:#3f3832;--fr:#f3f3f4;color:var(--tx);position:fixed;inset:0 0 auto;height:var(--hh);background:var(--bg);border-bottom:1px solid var(--ln);z-index:100}
+header .w{max-width:1360px;height:100%;display:flex;align-items:center;gap:24px}
+.lg{margin-right:auto;display:block}.lg img{height:60px;width:auto;display:block}
+nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0}
+.nl{position:relative;background:none;border:0;color:var(--tx);font:600 .8rem var(--hf);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;padding:12px 2px;cursor:pointer;display:block}
+.nl::after{content:"";position:absolute;left:0;right:0;bottom:4px;height:1px;background:var(--be);transform:scaleX(0);transition:transform .25s}
+.nl:hover,.nl[aria-current],.nl[aria-expanded=true]{color:var(--be)}
+.nl:hover::after,.nl[aria-expanded=true]::after{transform:scaleX(1)}
+.nl[aria-current]::after{transform:scaleX(1);height:3px}
+.dw{position:relative}
+.dp{position:absolute;top:100%;left:0;min-width:310px;background:var(--s1);border:1px solid var(--ln);padding:8px;max-height:70vh;overflow:auto}
+.dp button{display:block;width:100%;text-align:left;background:none;border:0;color:var(--tx);font:600 .8rem var(--hf);letter-spacing:.05em;text-transform:uppercase;padding:11px 12px;cursor:pointer}
+.dp button:hover{color:var(--be);background:var(--s2)}
+.mb{display:none;background:none;border:1px solid var(--ln);color:var(--tx);width:46px;height:46px;font-size:22px;cursor:pointer}
+.btn{position:relative;display:inline-block;background:var(--ac);color:#fff;font:600 .8rem var(--hf);letter-spacing:.06em;text-transform:uppercase;padding:15px 26px;border:2px solid var(--ac);text-decoration:none;cursor:pointer;transition:color .2s,background .2s}.btn::after{content:"";position:absolute;left:12px;right:12px;bottom:6px;height:1px;background:var(--be);transform:scaleX(0);transition:transform .25s}.btn:hover{color:var(--be)}.btn:hover::after{transform:scaleX(1)}.btn.o{background:none;color:var(--tx)}.btn.o:hover{background:var(--ac);color:var(--be)}
+.row{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+#inicio{position:relative;min-height:100vh;min-height:100svh;display:grid;align-items:center;padding:calc(var(--hh) + 32px) 0 110px;background:var(--sa);color:#011e44;--fr:#011e44;overflow:hidden}
+#inicio>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;will-change:transform}
+#inicio::before{content:"";position:absolute;inset:0;background:rgba(255,154,133,var(--ov));z-index:1}
+#inicio .w{position:relative;z-index:2;text-align:center}
+h1{font:700 clamp(2.1rem,5.2vw,4rem)/1.12 var(--hf);max-width:18ch;margin:0 auto .5em}
+.hp{font-size:clamp(1.05rem,1.8vw,1.3rem);max-width:56ch;margin:0 auto 2em}
+.ci{list-style:none;padding:0;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:20px;max-width:760px}
+.ci img{height:56px;width:auto;display:block;margin:0 auto 10px}.ci b{display:block;font:700 clamp(2rem,4vw,3rem)/1 var(--hf)}.dt{font-size:.85rem;margin:18px 0 0;max-width:none}
+.sd{position:absolute;left:50%;bottom:26px;z-index:2;translate:-50% 0;width:44px;height:44px;border:2px solid #011e44;border-radius:50%;display:grid;place-items:center;text-decoration:none;animation:bn 2s infinite}
+@keyframes bn{50%{transform:translateY(6px)}}
+#mapa,#alianzas,#contacto{background:var(--s1)}
+.mp{position:relative;height:clamp(360px,62vh,640px);border:1px solid var(--ln);border-radius:8px;overflow:hidden;background:#ddd;margin-top:16px}
+.mp img,.mp iframe{position:absolute;inset:0;width:100%;height:100%;border:0;object-fit:cover}
+.mp .btn{position:absolute;left:50%;top:50%;translate:-50% -50%}
+.lk{background:none;border:0;color:var(--t2);font:inherit;cursor:pointer;padding:2px 0;text-align:left}.lk:hover{color:var(--be)}
+.ml{columns:2;list-style:none;padding:0;margin:12px 0 0}
+#servicios{overflow-x:clip}.hd{text-align:center}.hd h2{display:inline-block;padding-bottom:18px;border-bottom:1px solid var(--ln);max-width:24ch}
+.fw{position:relative;max-width:1240px;margin:36px auto 0}.cnt{text-align:center;color:var(--t2);margin:0 auto;font-size:.9rem}
+.fan{--cw:230px;--ch:340px;--st:min(118px,calc((100vw - 120px - var(--cw))/8));position:relative;height:440px}
+.card{position:absolute;left:50%;top:50px;width:var(--cw);height:var(--ch);padding:0;border:0;border-radius:8px;overflow:hidden;background:var(--s2);cursor:pointer;
+transform:translateX(calc(-50% + (var(--o)*var(--st))))scale(calc(1.15 - var(--a)*.09));z-index:calc(10 - var(--a));filter:brightness(calc(1 - var(--a)*.09));
+transition:transform .5s cubic-bezier(.2,.7,.2,1),translate .25s,opacity .4s,filter .3s}
+.card img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
+.card.jump{transition:none;opacity:0}.card:hover{translate:0 -8px;filter:none}
+.card:focus-visible{outline:2px solid var(--fr);outline-offset:4px}
+.lab{position:absolute;background:#080808;color:var(--be);font:600 15px/1.25 var(--hf);text-transform:uppercase;letter-spacing:.03em;padding:8px 10px;border-radius:4px;transition:background .2s}
+.card:hover .lab,.card:focus-visible .lab{background:var(--ac);color:var(--be)}
+[data-s=c] .lab{left:50%;bottom:14px;transform:translateX(-50%);width:max-content;max-width:88%;text-align:center}
+[data-s=l] .lab,[data-s=r] .lab{top:14px;writing-mode:vertical-rl;max-height:calc(var(--ch) - 28px)}
+[data-s=l] .lab{left:8px;rotate:180deg}[data-s=r] .lab{right:8px}
+.card::after{content:"+";position:absolute;top:10px;width:28px;height:28px;border-radius:50%;background:#080808;color:#f3f3f4;display:grid;place-items:center;font:700 18px var(--hf);opacity:0;transition:opacity .2s}
+[data-s=c]::after{right:10px;opacity:1}[data-s=l]::after{left:8px;top:auto;bottom:10px}[data-s=r]::after{right:8px;top:auto;bottom:10px}.card:hover::after,.card:focus-visible::after{opacity:1}
+.fan:not(.in) .card{transform:translateX(-50%) scale(.85);opacity:0}
+.ar{position:absolute;top:210px;width:48px;height:48px;border-radius:50%;background:#080808;color:#f3f3f4;border:1px solid #3f3832;font-size:24px;cursor:pointer;z-index:20}.ar:hover{color:#d3ad93}
+.ar.l{left:0}.ar.r{right:0}
+.al ul{padding-left:1.2em;max-width:62ch}
+#pasos{background:var(--bg)}
+ol.st{list-style:none;counter-reset:s;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:24px}
+ol.st li{counter-increment:s;padding-top:64px;position:relative}
+ol.st li::before{content:counter(s);position:absolute;top:0;left:0;width:44px;height:50px;border-radius:999px 999px 0 0;background:var(--ac);color:#fff;font:700 1.2rem var(--hf);display:grid;place-items:center}
+form{display:grid;gap:16px;max-width:640px}label{display:grid;gap:6px;font-weight:600}
+input,select,textarea{font:inherit;color:var(--tx);background:var(--s2);border:1.5px solid var(--ln);border-radius:8px;padding:12px;width:100%}
+.nt{padding:12px 14px;border-left:4px solid var(--ac);background:var(--s2);margin:0}
+footer{padding:40px 0 56px;border-top:1px solid var(--ln);color:var(--t2);font-size:.9rem}
+.pie{display:flex;align-items:center;justify-content:space-between;gap:20px}.pie>a:first-child:hover{color:var(--bh)}
+.up{flex:none;width:44px;height:44px;border:2px solid #011e44;border-radius:50%;display:grid;place-items:center;text-decoration:none;color:#011e44;animation:bu 2s infinite}
+@keyframes bu{50%{transform:translateY(-6px)}}
+dialog{padding:0;border:1px solid var(--ln);background:var(--s2);color:var(--tx);width:min(920px,92vw);max-height:90vh;border-radius:12px;overflow:auto}
+dialog::backdrop{background:rgba(0,0,0,.82)}
+.x{position:sticky;top:8px;display:block;margin:8px 8px -48px auto;width:40px;height:40px;border-radius:50%;border:1px solid var(--ln);background:#080808;color:#f3f3f4;font-size:20px;cursor:pointer;z-index:5}
+.dg{display:grid;grid-template-columns:1fr 1.1fr}.dg.nog{grid-template-columns:1fr}.dg.nog .gal{display:none}
+.gal{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:24px;align-content:start}.gal button{position:relative;padding:0;border:0;background:none;cursor:zoom-in;border-radius:8px;overflow:hidden}.gal img{width:100%;aspect-ratio:3/2;object-fit:cover;display:block}.gal button::after{content:"⌕";position:absolute;right:8px;top:8px;width:34px;height:34px;display:grid;place-items:center;border-radius:50%;background:#011e44;color:#fff;font-size:20px;opacity:0;transition:opacity .2s}.gal button:hover::after,.gal button:focus-visible::after{opacity:1}
+.tx{padding:32px 32px 24px}.tx h3{font-size:1.7rem;font-weight:700}
+.tx h4{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--bh);margin:1.4em 0 .4em}.tx ul{padding-left:1.2em;margin:0}
+.dn{display:flex;justify-content:space-between;gap:12px;padding:14px 24px;border-top:1px solid var(--ln)}
+.dn button{background:none;border:0;color:var(--tx);font:600 .85rem var(--hf);cursor:pointer;padding:10px}.dn button:hover{color:var(--bh)}
+.al{position:relative;overflow:hidden}.bgi{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.12;will-change:transform}.al .w{position:relative}.dcg{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px}.dc ul{list-style:none;padding:0;margin:0}.dc li{margin-bottom:8px;overflow-wrap:anywhere}.dc h3{font-size:1.05rem}.dc a:hover{color:var(--bh)}small{color:var(--t2);font-weight:400}.mn{font-size:.9rem;color:var(--t2);margin:0}#lb{background:#000;border:0;padding:0;width:auto;max-width:94vw;max-height:94vh;border-radius:8px}#lb img{display:block;max-width:94vw;max-height:90vh;object-fit:contain}@media(max-width:1099px){
+.mb{display:block}nav{position:fixed;inset:var(--hh) 0 0 0;background:var(--bg);padding:12px 20px 40px;overflow:auto;display:none}nav.open{display:block}
+nav ul{flex-direction:column;gap:0}.nl{width:100%;text-align:left;padding:16px 0;border-bottom:1px solid var(--ln);font-size:.95rem}.nl::after{display:none}
+.dp{position:static;border:0;background:none;padding:0 0 8px 12px;max-height:none}
+.ar{display:none}.fan{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;padding:20px 14vw 30px;height:auto}
+.card{position:relative;left:auto;top:auto;transform:none!important;filter:none!important;opacity:1!important;width:min(72vw,300px);height:380px;flex:none;scroll-snap-align:center}
+.card .lab{left:50%!important;right:auto!important;top:auto!important;bottom:14px;rotate:none!important;writing-mode:horizontal-tb!important;transform:translateX(-50%)!important;width:max-content;max-width:88%;text-align:center;max-height:none!important}
+.card::after{right:10px!important;left:auto!important;top:10px!important;bottom:auto!important;opacity:1}}
+@media(max-width:799px){.ci{grid-template-columns:repeat(2,1fr)}.ml{columns:1}section{padding:64px 0}
+dialog{width:100%;height:100%;max-height:none;max-width:none;border-radius:0;border:0}.dg{grid-template-columns:1fr}.gal{grid-template-columns:1fr 1fr;padding:56px 16px 0}.tx{padding:20px 20px 16px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+</style></head><body>
+<a class="sk" href="#main">Saltar al contenido</a>
+<header><div class="w"><a class="lg" href="#inicio"><img src="imagen/logo.png" alt="Bienes Patrimoniales, Oficina del Historiador de la Ciudad de La Habana. Ir al inicio"></a>
+<button class="mb" aria-expanded="false" aria-controls="nv" aria-label="Menú">☰</button>
+<nav id="nv" aria-label="Principal"><ul>
+<li><a class="nl" data-l="inicio" href="#inicio">Inicio</a></li>
+<li><a class="nl" data-l="mapa" href="#mapa">Mapa</a></li>
+<li class="dw"><button class="nl" data-l="servicios" aria-expanded="false" aria-controls="ds">Servicios</button><div class="dp" id="ds" hidden></div></li>
+<li><a class="nl" data-l="alianzas" href="#alianzas">Alianzas</a></li>
+<li><a class="nl" data-l="contacto" href="#contacto">Contacto</a></li>
+
+</ul></nav></div></header>
+<main id="main">
+<section id="inicio" data-sp="inicio"><img src="imagen/hero.jpg" alt="" fetchpriority="high"><div class="w">
+<h1>El patrimonio de La Habana se vive, se estudia y se cuida.</h1>
+<p class="hp">Reunimos los museos, instituciones y colecciones de Bienes Patrimoniales, de la Oficina del Historiador de la Ciudad, y ofrecemos servicios para conocer, conservar y compartir el patrimonio.</p>
+<ul class="ci"><li><img src="imagen/iconos/museos.png" alt=""><b>32</b>Museos</li><li><img src="imagen/iconos/bibliotecas.png" alt=""><b>19</b>Bibliotecas</li><li><img src="imagen/iconos/archivos.png" alt=""><b>3</b>Archivos</li><li><img src="imagen/iconos/grupos_de_trabajo.png" alt=""><b>2</b>Grupos de trabajo</li></ul></div>
+<a class="sd" href="#mapa" aria-label="Ir a la siguiente sección">↓</a></section>
+<section id="mapa" data-sp="mapa"><div class="w"><h2>Mapa de museos e instituciones</h2>
+<p>Te mostramos en un mapa de la ciudad de La Habana, dónde están ubicadas nuestras instituciones. Encuéntranos y planifica tu recorrido.</p>
+<div class="mp"><iframe id="mf" title="Mapa de museos e instituciones de Bienes Patrimoniales" loading="lazy" allowfullscreen></iframe></div><div class="row"><a id="mpl" class="btn" target="_blank" rel="noopener">Ver mapa en pantalla completa</a></div></div></section>
+<section id="servicios" data-sp="servicios"><div class="w"><div class="hd"><h2>Servicios para vivir, estudiar y cuidar el patrimonio</h2></div></div>
+<div class="fw"><button class="ar l" id="pv" aria-label="Servicio anterior">‹</button><div class="fan" id="fan" role="group" aria-label="Servicios"></div><button class="ar r" id="nx" aria-label="Servicio siguiente">›</button>
+<p class="cnt" id="cnt" aria-live="polite"></p></div></section>
+<section id="alianzas" class="al" data-sp="alianzas"><img class="bgi" src="imagen/alianzas.jpg" alt=""><div class="w"><h2>El patrimonio no se visita solo: se usa, se habita, se vuelve a contar.</h2>
+<p>Cada recorrido, evento, alquiler o curso reactiva un espacio y mueve la economía de su entorno.</p>
+<ul><li><b>Reactivar espacios:</b> la actividad cultural sostiene el patrimonio.</li><li><b>Abrir nuevos destinos:</b> diversificamos la oferta turística y distribuimos visitantes hacia lugares nuevos.</li><li><b>Crear oportunidades:</b> empleo, talento creativo y cadenas de valor locales.</li></ul>
+<div class="row"><button class="btn" type="button" data-go="alianza">Hablemos de una alianza</button><a class="btn o" href="https://catalogopatrimonio.ohc.cu/" target="_blank" rel="noopener">Catálogo de Bienes Patrimoniales</a></div></div></section>
+<section id="pasos" data-sp="contacto"><div class="w"><h2>De tu idea a tu proyecto</h2>
+<ol class="st"><li><b>Cuéntanos</b> qué necesitas.</li><li><b>Te respondemos</b> con una propuesta a medida en menos de una semana.</li><li><b>Lo diseñamos</b> contigo y con los actores locales.</li><li><b>Lo hacemos realidad.</b></li></ol></div></section>
+<section id="contacto" data-sp="contacto"><div class="w"><h2>Cuéntanos qué tienes en mente.</h2>
+<form id="f"><p class="nt" id="nt" hidden></p>
+<label>Servicio de interés<select id="sel" required></select></label>
+<label>Nombre completo<input id="nm" required autocomplete="name"></label>
+<label>Correo<input id="em" type="email" required autocomplete="email"></label>
+<label>Teléfono (opcional)<input id="tl" type="tel" inputmode="numeric" pattern="\+?[0-9 ]{7,16}" title="Solo números; puedes empezar con +" autocomplete="tel"></label>
+<label>Mensaje (opcional)<textarea id="ms" rows="5"></textarea><small id="wc">0 de 300 palabras</small></label>
+<button class="btn" type="submit" style="justify-self:start">Enviar solicitud</button><p class="mn">Se abrirá WhatsApp con tu mensaje listo para enviar.</p></form></div></section>
+<section id="datos" class="dc" data-sp="contacto"><div class="w"><h2>Datos de contacto</h2><div class="dcg">
+<div><h3>Redes sociales</h3><ul><li>Facebook: <a data-u="fb">@bienespatrimoniales.ohc</a></li><li>Instagram: <a data-u="ig">@bienespatrimoniales.ohc</a></li></ul></div>
+<div><h3>WhatsApp</h3><ul><li><a href="https://wa.me/5352803706" target="_blank" rel="noopener">+53 52803706</a></li><li><a href="https://wa.me/5353962467" target="_blank" rel="noopener">+53 53962467</a></li></ul></div>
+<div><h3>Correo</h3><ul><li><a href="mailto:grisel@patrimonio.ohc.cu">grisel@patrimonio.ohc.cu</a></li><li><a href="mailto:bienespatrimonialesohc@gmail.com">bienespatrimonialesohc@gmail.com</a></li></ul></div>
+<div><h3>Enlaces</h3><ul><li><a data-u="pd">Patrimonio Documental</a></li><li><a data-u="pm">Patrimonio Museal</a></li><li><a data-u="ga">Gabinete de Arqueología</a></li><li><a data-u="rep">Repositorio Digital</a></li><li><a href="https://catalogopatrimonio.ohc.cu/" target="_blank" rel="noopener">Catálogo de Bienes Patrimoniales</a></li></ul></div>
+</div></div></section>
+</main>
+<footer><div class="w pie"><a href="http://patrimoniodocumental.portal.ohc.cu/" target="_blank" rel="noopener">Bienes Patrimoniales · Oficina del Historiador de la Ciudad de La Habana</a><a class="up" href="#inicio" aria-label="Volver al inicio de la página">↑</a></div></footer>
+<dialog id="pop" aria-labelledby="pt"><button class="x" id="px" aria-label="Cerrar">✕</button>
+<div class="dg" id="dg"><div class="gal" id="gal"></div><div class="tx"><h3 id="pt"></h3><p id="pd"></p><div id="pi"></div><h4>Ideal para</h4><p id="pp"></p><button class="btn" id="pc" type="button">Consultar sobre este servicio</button></div></div>
+<div class="dn"><button id="pb" type="button">‹ Anterior</button><button id="pn" type="button">Siguiente ›</button></div></dialog>
+<dialog id="lb" aria-label="Imagen ampliada"><button class="x" id="lx" aria-label="Cerrar imagen">✕</button><img id="li" alt=""></dialog>
+<script>
+const MAPA_URL='https://maphub.net/embed_h/hjROLufSui4yZpqy?panel=1&panel_closed=1';
+const S=[
+{n:'Visitas guiadas',s:'visitas-guiadas',d:'Recorridos con especialistas por museos, sitios históricos y espacios patrimoniales. Podemos también organizar recorridos y experiencias a la medida que recorran toda la riqueza cultural del territorio, articuladas con otros actores de la comunidad: talleres de artistas, proyectos comunitarios, cafés y emprendimientos locales que dan nueva vida al patrimonio.',i:['Recorridos por museos, sitios históricos y espacios patrimoniales.','Diseño y guía de recorridos a la medida.','Interacción con talleres de artistas, proyectos comunitarios y emprendimientos locales.'],p:'Visitantes, grupos y comunidades, nacionales e internacionales, que quieren conocer el patrimonio desde dentro.'},
+{n:'Organización de eventos',s:'organizacion-de-eventos',d:'Ponemos a tu disposición servicios de apoyo para la planificación, coordinación y realización de eventos en nuestras instituciones, adaptados a las características y necesidades de cada propuesta.',i:['Planificación y coordinación','Producción del evento'],p:'Empresas, nuevos actores económicos y personas naturales, interesados en realizar eventos vinculados al patrimonio.'},
+{n:'Alquiler de espacios',s:'alquiler-de-espacios',d:'Nuestras instalaciones pueden acoger reuniones, celebraciones, exposiciones, presentaciones, producciones audiovisuales, así como el uso de nuestros espacios a largo plazo para emprendimientos culturales.',i:['Reuniones y celebraciones','Exposiciones y presentaciones','Producciones audiovisuales','Espacios para emprendimientos creativos: talleres, estudios, galerías y diseño'],p:'Empresas, nuevos actores económicos y personas naturales, interesados en realizar eventos, celebraciones, exposiciones o producciones audiovisuales.'},
+{n:'Formación',s:'formacion',d:'Nuestros especialistas organizan e imparten conferencias, talleres, pasantías, y pueden diseñar programas a la medida en arqueología, museología, gestión del patrimonio y nuevas tecnologías aplicadas a su difusión y preservación.',i:['Cursos, talleres y conferencias','Pasantías y encuentros académicos','Programas a la medida'],p:'Estudiantes, investigadores y profesionales con interés académico o cultural, nacionales o internacionales.'},
+{n:'Curaduría y museografía',s:'curaduria-y-museografia',d:'Nuestros especialistas te acompañan en las diferentes etapas del proceso, desde la conceptualización de la propuesta hasta su materialización, para desarrollar proyectos que favorezcan la interpretación, comunicación y difusión del patrimonio.',i:['Asesoría curatorial','Guion museológico','Diseño museográfico y montaje'],p:'Instituciones culturales como museos, galerías, archivos, bibliotecas y personas y colectivos de artistas.'},
+{n:'Diagnósticos especializados',s:'diagnosticos-especializados',d:'Si necesitas evaluar, seleccionar o poner en valor un sitio arqueológico, un inmueble o una colección patrimonial, nuestros especialistas pueden acompañarte mediante servicios de asesoría especializada en arqueología y conservación preventiva, diagnóstico de conservación y curaduría de documentos y bienes culturales.',i:['Asesoría en arqueología y conservación preventiva','Diagnóstico de conservación','Curaduría de documentos y bienes culturales'],p:'Instituciones culturales como museos, galerías, archivos, bibliotecas, universidades y coleccionistas privados.'},
+{n:'Gestión documental',s:'gestion-documental',d:'Si necesitas recuperar información, organizar un archivo o poner en valor una colección documental, en nuestras instituciones encontrarás servicios especializados de búsqueda y diagnóstico documental, curaduría y asesoría para la organización, clasificación, catalogación y conservación de documentos.',i:['Búsqueda y diagnóstico documental.','Organización, clasificación y catalogación.','Propuesta de sistemas de gestión de colecciones digitales.'],p:'Instituciones culturales como museos, galerías, archivos, bibliotecas, universidades y coleccionistas y archivos privados, eclesiásticos o de cualquier naturaleza.'},
+{n:'Digitalización',s:'digitalizacion',d:'Si necesitas convertir documentos, fotografías u otros bienes patrimoniales en recursos digitales que faciliten su conservación, consulta y difusión, ponemos a tu disposición servicios especializados que abarcan todo el proceso de digitalización: desde el diagnóstico de fondos y la elaboración de proyectos a medida, hasta la captura, el procesamiento de imágenes y la normalización de metadatos.',i:['Diagnóstico de fondos','Captura y procesamiento de imágenes','Normalización de metadatos','Propuesta de sistemas de gestión de colecciones digitales.'],p:'Instituciones culturales como museos, galerías, archivos, bibliotecas, universidades y coleccionistas y archivos privados, eclesiásticos o de cualquier naturaleza.'},
+{n:'Comunicación y contenidos',s:'comunicacion-y-contenidos',t:'Comunicación y generación de contenidos multimediales',d:'Si estás desarrollando un documental, una producción audiovisual o un proyecto para radio, cine y televisión o necesitas ayuda para la gestión de plataformas digitales, ponemos a tu disposición el conocimiento de nuestros especialistas para acompañarte en el proceso creativo y de investigación, así como de la implementación de plataformas digitales para la comunicación.',i:['Asesoría técnica y de contenidos para guiones audiovisuales.','Estrategias de comunicación digital'],p:'Productores audiovisuales y de cine e instituciones culturales.'}];
+const M=[],WA='5352803706',U={fb:'https://www.facebook.com/bienespatrimoniales.ohc',ig:'https://www.instagram.com/bienespatrimoniales.ohc',pd:'http://patrimoniodocumental.portal.ohc.cu/',pm:'http://patrimoniomuseal.portal.ohc.cu',ga:'https://gabinetearqueologia.portal.ohc.cu/',rep:'https://coleccionesdigitales.ohc.cu/s/repositoriodigital/page/inicio'},F={'visitas-guiadas':'Visitas Guiadas','organizacion-de-eventos':'Organización de eventos','alquiler-de-espacios':'Alquiler de espacios','formacion':'Formación','curaduria-y-museografia':'Curaduría y museografía','diagnosticos-especializados':'Diagnósticos especializados','gestion-documental':'Gestión Documental','digitalizacion':'Digitalización','comunicacion-y-contenidos':'Comunicación y contenidos'};
+const $=(q,e=document)=>e.querySelector(q),$$=(q,e=document)=>[...e.querySelectorAll(q)],pad=i=>String(i+1).padStart(2,'0');
+const nav=$('#nv'),mb=$('.mb'),dlg=$('#pop'),sel=$('#sel'),nt=$('#nt');let popK,popI,opener,skip=false;
+/* menú */
+const dd={s:$('#ds')};
+dd.s.innerHTML=S.map((x,i)=>`<button type="button" data-k="s" data-i="${i}">${x.n}</button>`).join('');
+const closeDD=()=>$$('.dw>.nl').forEach(b=>{b.setAttribute('aria-expanded','false');$('#'+b.getAttribute('aria-controls')).hidden=true});
+const closeNav=()=>{nav.classList.remove('open');mb.setAttribute('aria-expanded','false')};
+$$('.dw>.nl').forEach(b=>b.onclick=()=>{const was=b.getAttribute('aria-expanded')==='true';closeDD();
+ if(was){if(b.dataset.l==='servicios'){closeNav();$('#servicios').scrollIntoView()}return}
+ b.setAttribute('aria-expanded','true');$('#'+b.getAttribute('aria-controls')).hidden=false});
+document.addEventListener('click',e=>{if(!e.target.closest('.dw'))closeDD();
+ const t=e.target.closest('[data-k]');if(t){const tr=t.closest('.dw')?$('.nl',t.closest('.dw')):t;closeDD();closeNav();openPop(t.dataset.k,+t.dataset.i,tr)}
+ const g=e.target.closest('[data-go]');if(g)go(g.dataset.go,'Alianza');
+ if(e.target.closest('nav a'))closeNav()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){const o=$('.dw>.nl[aria-expanded=true]');if(o){closeDD();o.focus()}closeNav()}});
+mb.onclick=()=>{const o=nav.classList.toggle('open');mb.setAttribute('aria-expanded',o)};
+/* sección activa */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){$$('.nl[aria-current]').forEach(a=>a.removeAttribute('aria-current'));const l=$(`.nl[data-l="${e.target.dataset.sp}"]`);l&&l.setAttribute('aria-current','location')}}),{rootMargin:'-45% 0px -54% 0px'});
+$$('[data-sp]').forEach(s=>io.observe(s));
+/* mapa */
+$('#mpl').href=MAPA_URL;$('#mf').src=MAPA_URL;
+/* abanico */
+const fan=$('#fan'),big=()=>matchMedia('(min-width:1100px)').matches;let cur=4,prev=[],sx=null,moved=false;
+const cards=S.map((s,i)=>{const b=document.createElement('button');b.type='button';b.className='card';
+ b.innerHTML=`<img src="${encodeURI('servicio-portada/'+s.s)}.jpg" alt="" loading="lazy" draggable="false"><span class="lab">${s.n}</span>`;
+ b.setAttribute('aria-label',`${s.n}, ${i+1} de 9, abre detalle`);b.onclick=()=>{if(!moved)openPop('s',i,b)};fan.append(b);return b});
+function render(){cards.forEach((b,i)=>{let d=((i-cur)%9+9)%9;if(d>4)d-=9;const p=prev[i];
+ if(p!==undefined&&Math.abs(d-p)>4){b.classList.add('jump');requestAnimationFrame(()=>requestAnimationFrame(()=>b.classList.remove('jump')))}
+ prev[i]=d;b.style.setProperty('--o',d);b.style.setProperty('--a',Math.abs(d));b.dataset.s=d<0?'l':d>0?'r':'c';b.tabIndex=d?-1:0});
+ $('#cnt').textContent=`${cur+1} de 9`}
+const move=n=>{cur=(cur+n+9)%9;render()};render();
+$('#pv').onclick=()=>move(-1);$('#nx').onclick=()=>move(1);
+fan.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();move(e.key==='ArrowLeft'?-1:1);cards[cur].focus({preventScroll:true})}});
+fan.addEventListener('pointerdown',e=>{if(big()){sx=e.clientX;moved=false}});
+fan.addEventListener('pointerup',e=>{if(sx===null)return;const dx=e.clientX-sx;sx=null;if(Math.abs(dx)>40){moved=true;move(dx<0?1:-1);setTimeout(()=>moved=false,60)}});
+fan.addEventListener('pointercancel',()=>sx=null);
+new IntersectionObserver((es,o)=>es.forEach(e=>{if(e.isIntersecting){fan.classList.add('in');o.disconnect()}}),{threshold:.3}).observe(fan);
+if(!big())fan.scrollLeft=cards[4].offsetLeft-(fan.clientWidth-cards[4].offsetWidth)/2;
+/* popups */
+function openPop(k,i,op,fromHash){const L=k==='s'?S:M,it=L[i];popK=k;popI=i;if(op)opener=op;
+ $('#pt').textContent=it.t||it.n;$('#pd').textContent=it.d;$('#pp').textContent=it.p;
+ $('#pi').innerHTML=it.i.length?'<h4>Incluye</h4><ul>'+it.i.map(x=>`<li>${x}</li>`).join('')+'</ul>':'';
+ $('#gal').innerHTML=k==='s'?[1,2,3,4,5,6].map(n=>`<button type="button" aria-label="Ampliar imagen ${n}"><img src="${encodeURI('galeria-servicio/'+it.s+'/'+n+'.jpg')}" alt="" loading="lazy"></button>`).join(''):'';$$('#gal img').forEach(m=>m.onerror=()=>m.parentElement.remove());
+ $('#dg').classList.toggle('nog',k!=='s');$('#pc').hidden=k!=='s';
+ if(!dlg.open)dlg.showModal();dlg.scrollTop=0;
+ if(!fromHash){const h='#'+(k==='s'?'servicio-':'museo-')+it.s;history[history.state&&history.state.pop?'replaceState':'pushState']({pop:1},'',h)}}
+const step=n=>{const L=popK==='s'?S:M;openPop(popK,(popI+n+L.length)%L.length)};
+$('#pb').onclick=()=>step(-1);$('#pn').onclick=()=>step(1);
+const closePop=()=>history.state&&history.state.pop?history.back():dlg.close();
+$('#px').onclick=closePop;dlg.addEventListener('cancel',e=>{e.preventDefault();closePop()});
+dlg.addEventListener('click',e=>{if(e.target===dlg)closePop()});
+dlg.addEventListener('close',()=>{if(!skip&&opener&&document.contains(opener))opener.focus({preventScroll:true});skip=false});
+function hashOpen(){const m=location.hash.match(/^#(servicio|museo)-(.+)$/);if(m){const k=m[1]==='servicio'?'s':'m',i=(k==='s'?S:M).findIndex(x=>x.s===m[2]);if(i>=0){openPop(k,i,null,true);return}}if(dlg.open)dlg.close()}
+addEventListener('popstate',hashOpen);if(location.hash)hashOpen();
+/* formulario */
+sel.innerHTML=S.map(x=>`<option value="${x.s}">${x.n}</option>`).join('')+'<option value="alianza">Alianza</option><option value="otra">Otra consulta</option>';
+sel.onchange=()=>nt.hidden=true;
+function go(v,name){sel.value=v;nt.textContent='Consulta sobre: '+name;nt.hidden=false;$('#contacto').scrollIntoView();sel.focus({preventScroll:true})}
+$('#pc').onclick=()=>{const it=S[popI];skip=true;dlg.close();history.replaceState(null,'','#contacto');go(it.s,it.n)};
+const ms=$('#ms');ms.oninput=()=>{const w=ms.value.trim().split(/\s+/).filter(Boolean).length;$('#wc').textContent=w+' de 300 palabras';ms.setCustomValidity(w>300?'Máximo 300 palabras':'')};
+$('#f').onsubmit=e=>{e.preventDefault();const v=id=>$('#'+id).value.trim();
+ const t=`Hola, quiero solicitar una propuesta.\nServicio: ${sel.selectedOptions[0].text}\nNombre: ${v('nm')}\nCorreo: ${v('em')}`+(v('tl')?`\nTeléfono: ${v('tl')}`:'')+(v('ms')?`\nMensaje: ${v('ms')}`:'');
+ window.open('https://wa.me/'+WA+'?text='+encodeURIComponent(t),'_blank','noopener')};
+$$('[data-u]').forEach(a=>{const u=U[a.dataset.u];if(u){a.href=u;a.target='_blank';a.rel='noopener'}else a.outerHTML=`<span class="p">${a.textContent} [URL pendiente]</span>`});
+const lb=$('#lb');$('#gal').addEventListener('click',e=>{const b=e.target.closest('button');if(b){$('#li').src=b.firstElementChild.src;lb.showModal()}});
+$('#lx').onclick=()=>lb.close();lb.addEventListener('click',e=>{if(e.target===lb)lb.close()});
+/* parallax sutil: imagen de hero y alianzas */
+(()=>{if(matchMedia('(prefers-reduced-motion:reduce)').matches)return;
+const K=.15,L=[...$$('#inicio>img,.al>.bgi')].map(im=>({im,s:im.parentElement,on:false}));let q=false;
+const fit=()=>L.forEach(o=>{const b=Math.ceil(K*(innerHeight+o.s.offsetHeight)/2);o.im.style.top=-b+'px';o.im.style.height='calc(100% + '+2*b+'px)'});
+const upd=()=>{q=false;L.forEach(o=>{if(!o.on)return;const r=o.s.getBoundingClientRect();o.im.style.transform='translate3d(0,'+((innerHeight/2-(r.top+r.height/2))*K).toFixed(1)+'px,0)'})};
+const req=()=>{if(!q){q=true;requestAnimationFrame(upd)}};
+const ob=new IntersectionObserver(es=>{es.forEach(e=>{L.find(o=>o.s===e.target).on=e.isIntersecting});req()});
+L.forEach(o=>ob.observe(o.s));fit();addEventListener('scroll',req,{passive:true});addEventListener('resize',()=>{fit();req()});
+})();
+/* volver al inicio sin scroll animado */
+$('.up').addEventListener('click',e=>{e.preventDefault();window.scrollTo({top:0,behavior:'instant'});history.replaceState(null,'',location.pathname+location.search);$('#inicio').focus?.({preventScroll:true})});
+</script></body></html>
